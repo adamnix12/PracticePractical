@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Practical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="order-container">
+
+    <h1>Place an Order</h1>
+
+    <label>Your Name:</label>
+    <input type="text" id="name">
+
+    <label>Item:</label>
+    <select id="item">
+        <option value="5">Burger - $5.00</option>
+        <option value="3">Fries - $3.00</option>
+        <option value="2">Drink - $2.00</option>
+    </select>
+
+    <label>Quantity:</label>
+    <input type="number" id="quantity">
+
+    <button onclick="placeOrder()">Order Now</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
